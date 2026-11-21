@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="80" viewBox="0 0 250 80" role="img" aria-labelledby="titulo-logo">
+    <title id="titulo-logo">Logotipo de la wiki de Naruto Blazing Revival</title>
+    <rect width="250" height="80" fill="#ffffff"/>
+    <circle cx="40" cy="40" r="28" fill="#e86f00"/>
+    <polygon points="40,16 46,34 64,40 46,46 40,64 34,46 16,40 34,34" fill="#222222"/>
+    <circle cx="40" cy="40" r="5" fill="#ffffff"/>
+    <text x="80" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222">BLAZING</text>
+    <text x="80" y="60" font-family="Arial, sans-serif" font-size="16" fill="#e86f00">REVIVAL WIKI</text>
+</svg>

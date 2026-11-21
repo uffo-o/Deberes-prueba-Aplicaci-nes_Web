@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas | Naruto Blazing Revival Wiki</title>
+    <meta name="description" content="Dos formas de ayudar a la wiki con una donación.">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="alternate" type="application/rss+xml" title="Noticias de la wiki" href="noticias.xml">
+    <link rel="icon" href="recursos/logo.svg">
+</head>
+<body>
+    <header>
+        <a href="index.html" aria-label="Volver al inicio">
+            <img src="recursos/logo.jpeg" alt="Logotipo de Naruto Blazing Revival">
+        </a>
+        <h1>Naruto Blazing Revival Wiki</h1>
+        <p>Guías, personajes, misiones y consejos.</p>
+    </header>
+
+    <nav aria-label="Menú principal">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="guias.html">Guías</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="ofertas.html" aria-current="page">Ofertas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="lateral">
+        <section id="informacion">
+            <h2>Información</h2>
+            <article>
+                <h3>Donaciones</h3>
+                <p>Las donaciones son voluntarias. Esta página no cobra dinero.</p>
+            </article>
+        </section>
+    </div>
+
+    <main>
+        <section id="donaciones">
+            <h2>Ayuda a la página</h2>
+            <p>Si te gusta la wiki, puedes ayudar con una donación.</p>
+
+            <div class="ofertas-grid">
+                <article class="tarjeta-oferta">
+                    <h3>Un kunai</h3>
+                    <span class="etiqueta">¡Gracias!</span>
+                    <figure>
+                        <img src="recursos/kunai.jpeg" alt="Un kunai ninja">
+                        <figcaption>Una pequeña ayuda para la wiki.</figcaption>
+                    </figure>
+                    <p class="precio"><strong>2 €</strong></p>
+                </article>
+                <article class="tarjeta-oferta">
+                    <h3>Tres kunais</h3>
+                    <span class="etiqueta">¡Gracias!</span>
+                    <figure>
+                        <img src="recursos/kunai.jpeg" alt="Un kunai ninja">
+                        <figcaption>Una ayuda para crear más contenido.</figcaption>
+                    </figure>
+                    <p class="precio"><strong>5 €</strong></p>
+                </article>
+                <article class="tarjeta-oferta">
+                    <h3>Compartir la página</h3>
+                    <span class="etiqueta">¡Gracias!</span>
+                    <figure>
+                        <img src="recursos/kunai.jpeg" alt="Icono de compartir">
+                        <figcaption>Ayuda a que más personas conozcan la wiki.</figcaption>
+                    </figure>
+                    <p class="precio"><strong>Gratis</strong></p>
+                </article>
+            </div>
+        </section>
+
+        <section id="opciones">
+            <h2>Otras formas de ayudar</h2>
+            <table>
+                <caption>Formas de apoyar la wiki</caption>
+                <thead>
+                    <tr><th scope="col">Opción</th><th scope="col">Precio</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th scope="row">Un kunai</th><td>2 €</td></tr>
+                    <tr><th scope="row">Tres kunais</th><td>5 €</td></tr>
+                    <tr><th scope="row">Compartir la página</th><td>Gratis</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr><td colspan="2">¡Gracias por ayudar!</td></tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="novedades">
+            <h2>Recibe novedades</h2>
+            <p>Este formulario es solo un ejemplo y no guarda tus datos.</p>
+            <form class="form-ofertas" action="ofertas.html" method="post">
+                <p><label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required></p>
+                <p><label for="tema">Me interesan:</label>
+                    <select id="tema" name="tema" required>
+                        <option value="">Elige una opción</option>
+                        <option value="noticias">Noticias</option>
+                        <option value="guias">Guías</option>
+                        <option value="donaciones">Donaciones</option>
+                    </select></p>
+                <p><label for="privacidad">
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                    Acepto el <a href="#aviso">aviso de privacidad</a>.
+                </label></p>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="aviso">
+            <h2>Aviso de privacidad</h2>
+            <p>No pongas datos personales; el formulario es un ejemplo.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Volver al <a href="index.html">inicio</a>.</p>
+    </footer>
+</body>
+</html>

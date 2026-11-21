@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Naruto Blazing Revival Wiki</title>
+    <link>https://github.com/uffo-o/Deberes-Aplicaciones_Web</link>
+    <description>Novedades de la wiki de Naruto Blazing Revival.</description>
+    <language>es</language>
+    <lastBuildDate>Sat, 21 Nov 2026 18:00:00 +0100</lastBuildDate>
+    <item>
+      <title>Nuevos personajes en la wiki</title>
+      <link>https://github.com/uffo-o/Deberes-Aplicaciones_Web/guias.html</link>
+      <description>La wiki añade información sobre personajes, sus habilidades y sus funciones dentro del equipo.</description>
+      <pubDate>Sat, 17 Oct 2026 10:00:00 +0200</pubDate>
+      <guid>https://github.com/uffo-o/Deberes-Aplicaciones_Web/guias.html#2026-10-17</guid>
+    </item>
+    <item>
+      <title>Guía rápida para preparar un equipo</title>
+      <link>https://github.com/uffo-o/Deberes-Aplicaciones_Web/guias.html</link>
+      <description>Cuatro pasos para montar un equipo: estadísticas, atributo y alcance, compañero y mejora de unidades.</description>
+      <pubDate>Sat, 24 Oct 2026 10:00:00 +0200</pubDate>
+      <guid>https://github.com/uffo-o/Deberes-Aplicaciones_Web/guias.html#2026-10-24</guid>
+    </item>
+    <item>
+      <title>Galería con imágenes y vídeo</title>
+      <link>https://github.com/uffo-o/Deberes-Aplicaciones_Web/galeria.html</link>
+      <description>Ya está disponible la galería con una imagen de un kunai y el vídeo trailer.</description>
+      <pubDate>Sat, 31 Oct 2026 10:00:00 +0200</pubDate>
+      <guid>https://github.com/uffo-o/Deberes-Aplicaciones_Web/galeria.html#2026-10-31</guid>
+    </item>
+    <item>
+      <title>Donaciones para apoyar la página</title>
+      <link>https://github.com/uffo-o/Deberes-Aplicaciones_Web/ofertas.html</link>
+      <description>Ya puedes ver dos opciones de donación para ayudar a mantener la wiki y crear contenido nuevo.</description>
+      <pubDate>Sat, 21 Nov 2026 18:00:00 +0100</pubDate>
+      <guid>https://github.com/uffo-o/Deberes-Aplicaciones_Web/ofertas.html#2026-11-21</guid>
+    </item>
+  </channel>
+</rss>

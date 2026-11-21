@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Wiki de Naruto Blazing Revival</title>
+    <meta name="description" content="Formulario de contacto de la wiki de Naruto Blazing Revival.">
+
+    <link rel="alternate" type="application/rss+xml" title="Noticias de Naruto Blazing Revival Wiki" href="noticias.xml">
+    <link rel="icon" type="image/svg+xml" href="recursos/logo3.svg">
+</head>
+
+<body>
+    
+         <header>
+        <a href="index.html" aria-label="Volver al inicio">
+            <img src="recursos/logo3.svg" alt="Logotipo de la wiki de Naruto Blazing Revival">
+        </a>
+        <h1>Naruto Blazing Revival Wiki</h1>
+        <p>Guías, personajes, misiones y consejos para volver al campo de batalla.</p>
+        </header>
+
+    <nav aria-label="Menú principal">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="guias.html">Guías</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="lateral">
+
+        <aside>
+            <h2>Información útil</h2>
+            <p>
+                Consulta la <a href="https://narutoblazingrevival.wiki/" target="_blank" rel="noopener"> página web oficial de Naruto Blazing Revival Wiki</a>
+            </p>
+        </aside>
+
+    </div>
+
+    <main>
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <form>
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required>
+                </p>
+
+                <p>
+                    <label for="email">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+                </p>
+
+                <p>
+                    <label for="telefono">Teléfono:</label>
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        required
+                        pattern="[0-9]{9}">
+                </p>
+
+                <p>
+                    <label for="fecha">Fecha:</label>
+                    <input
+                        type="date"
+                        id="fecha"
+                        name="fecha"
+                        required>
+                </p>
+
+                <p>
+                    <label for="tema">Tema:</label>
+                    <select id="tema" name="tema" required>
+                        <option value="">Selecciona un tema</option>
+                        <option value="personajes">Personajes</option>
+                        <option value="guias">Guías</option>
+                        <option value="misiones">Misiones</option>
+                    </select>
+                </p>
+
+                <p>
+                    Tipo de consulta:
+                </p>
+
+                <label>
+                    <input type="radio" name="tipo" value="duda" required>
+                    Duda
+                </label>
+
+                <label>
+                    <input type="radio" name="tipo" value="sugerencia">
+                    Sugerencia
+                </label>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        required>
+                    </textarea>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="aceptar" required>
+                        Acepto el envío del formulario.
+                    </label>
+                </p>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+        <footer>
+            <p>
+                Volver al <a href="index.html">inicio</a>
+            </p>
+        </footer>
+</body>
+</html>
