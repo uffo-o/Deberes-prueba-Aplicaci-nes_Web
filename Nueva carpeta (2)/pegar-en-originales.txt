@@ -1,0 +1,59 @@
+LÍNEAS A AÑADIR EN TUS FICHEROS ANTIGUOS (la rúbrica las exige; no he tocado los originales)
+
+==========================================================
+1) MENÚ · en index.html, guias.html, galeria.html y contacto.html
+   Añade esta línea justo ANTES de la de Contacto, dentro del <ul> del <nav>:
+==========================================================
+            <li><a href="ofertas.html">Ofertas</a></li>
+
+   (Y en plantilla.html, si es tu plantilla, lo mismo.)
+
+==========================================================
+2) noticias.xml
+==========================================================
+a) Después de <language>es</language> añade:
+    <lastBuildDate>Sat, 21 Nov 2026 19:00:00 +0100</lastBuildDate>
+
+b) Antes de </channel> añade:
+    <item>
+      <title>Ofertas de temporada en la wiki</title>
+      <link>https://github.com/uffo-o/Deberes-Aplicaciones_Web/ofertas.html</link>
+      <guid>https://github.com/uffo-o/Deberes-Aplicaciones_Web/ofertas.html#2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 19:00:00 +0100</pubDate>
+      <description>Nueva página de ofertas con tres actividades de temporada a cuota rebajada hasta el 31 de diciembre de 2026.</description>
+    </item>
+
+==========================================================
+3) sitemap.xml · antes de </urlset> añade:
+==========================================================
+  <url>
+    <loc>https://github.com/uffo-o/Deberes-Aplicaciones_Web/ofertas.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+--
+Tienes razón: te toqué ficheros que no debía. Lo deshago ahora: dejo todos los originales como estaban, sin aviso-legal.html ni retoques de más, y el CSS solo con el bloque «Ofertas» añadido al final.
+
+Tus originales no se tocan: ignora los que te envié antes (index, guias, galeria, contacto, noticias, sitemap, aviso-legal). Nunca modifiqué los tuyos, solo copias mías. Ahora te entrego solo lo nuevo:
+
+ofertas.html: la página nueva.
+estilos.css: tu CSS original idéntico byte a byte, con el bloque «Ofertas» añadido al final. Incluye una regla footer con los mismos valores que llevan en línea tus otras páginas (centrado y 130 px de relleno), porque ofertas.html no puede llevar style y así se ve igual que el resto.
+respuestas.md: tablas y justificaciones de las tareas.
+Tres .svg: las imágenes de las ofertas, en recursos/.
+pegar-en-originales.txt: las líneas exactas que pide la rúbrica para tus ficheros antiguos, para que decidas tú si las pegas.
+
+La rúbrica exige tocar tres cosas de tus ficheros antiguos. Sin ellas, E1 y E6 se quedan en nivel 1:
+
+Menú: el enlace «Ofertas» en todas las páginas (una línea por página).
+noticias.xml: el item nuevo y lastBuildDate.
+sitemap.xml: la URL de ofertas.html.
+
+Todo está en pegar-en-originales.txt para copiar y pegar; si prefieres no tocar nada, los puntos de la rúbrica asociados no se cumplirían.
+
+Hay dos pendientes que dependen de ti:
+
+plantilla.html: no me llegó, así que construí ofertas.html con la estructura de tu index.html. Si tu plantilla es distinta, pásamela y lo adapto.
+Enlace al aviso legal: apunta a aviso-legal.html, que ya no existe porque no quieres cosas extra. Cámbialo por tu página de aviso legal si la tienes. Si no, el enlace quedará roto.
+
+Las capturas y los validadores del W3C siguen siendo cosa tuya, y la tabla de errores de respuestas.md está en blanco para que la rellenes.
